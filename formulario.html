@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Inicio</a></li>
+                <li> <a href="formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>    
+   <div id="principal">
+    <img src="foto.jpg" id="mifoto" width="150">
+    <h2> Victoria Iribarne</h2>
+    <br><br><br>
+    <fieldset>
+        <legend>
+            Contáctame
+        </legend>
+        <ul>
+            <form class="form">
+                <div class="form_container">
+                    <input type="text" class="form_input" placeholder="Nombre:">
+                    <input type="e-mail" class="form_input" placeholder="E-mail:">
+                    <br><br>
+                    <textarea class="form_input form_input -- message" placeholder="Mensaje:"></textarea>
+                    <p id="enviar" style="display:none">Mensaje enviado!</p>
+                    <button type="button" onclick="document.getElementById('enviar').style.display='block'">Enviar</button>
+                </div>
+                </form>
+        </ul>
+    </fieldset>
+    <br><br><br>
+   </div> 
+</body>
+</html>
